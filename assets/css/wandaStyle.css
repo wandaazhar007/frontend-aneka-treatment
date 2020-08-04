@@ -285,3 +285,83 @@
 		color: #A52A2A !important;
 	}
 }
+
+/* my css */
+.btn-merah {
+	color: #fff;
+	background-color: #A52A2A;
+}
+
+.btn-merah:hover {
+	color: #A52A2A;
+	background-color: #f0f0f0;
+	font-weight: bold;
+}
+
+.text-merah {
+	color: #A52A2A;
+}
+
+#price_list .icon-box {
+	margin-top: 100px;
+	padding: 10px 10px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+	transition: all 0.3s ease-in-out;
+	border-radius: 8px;
+	z-index: 1;
+}
+
+#price_list .icon-box .title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+#price_list .icon-box .title a {
+	color: #124265;
+	transition: 0.3s;
+}
+
+#price_list .icon-box .description {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 0;
+}
+
+#price_list .icon-box .icon {
+	margin-bottom: 10px;
+	padding-top: 10px;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
+	font-size: 60px;
+	line-height: 1;
+	color: #2487ce;
+}
+
+#price_list .icon-box:hover {
+	transform: scale(1.08);
+}
+
+#price_list .icon-box:hover .title a {
+	color: #2487ce;
+}
+
+@media (max-width: 992px),
+(max-height: 500) {
+	#price_list {
+		height: auto;
+	}
+
+	#price_list h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#price_list h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
