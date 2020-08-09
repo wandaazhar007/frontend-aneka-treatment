@@ -20,7 +20,6 @@
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
   <?php echo $this->load->view('templates/fab') ?>
-  <?php echo $this->load->view('templates/bottom_bar') ?>
 
   <!-- Vendor JS Files -->
   <script src="<?php echo base_url() ?>/assets/vendor/jquery/jquery.min.js"></script>

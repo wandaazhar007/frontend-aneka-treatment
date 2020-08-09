@@ -124,7 +124,7 @@
 
       <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
         <img src="assets/img/about-video.jpg" class="img-fluid" alt="">
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+        <a href="https://www.youtube.com/watch?v=sIySZaX2WDk" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
       </div>
 
       <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
@@ -191,7 +191,7 @@
     <div class="section-title">
       <h2>Testimoni Pelanggan Kami</h2>
       <p>Ini adalah layanan testimoni kami, Anda dapat menulis testimoni disini.</p>
-      <button class="btn btn-sm text-center"><i class="fa fa-edit"></i> Tulis Testimoni</button>
+      <button class="btn btn-sm text-center mt-3 btn-merah"><i class="fa fa-edit"></i> Tulis Testimoni</button>
     </div>
 
     <div class="owl-carousel testimonials-carousel">
@@ -294,6 +294,7 @@
           </div>
           <h4><a href="">Deep Clean</a></h4>
           <p>Mencuci sepatu ada secara cepat dan bisa di tunggu langsung ditoko kami</p>
+          <button class="btn btn-sm text-center mt-5" style="background-color: #A52A2A; color: #fff">Lihat Detail</button>
         </div>
       </div>
 
@@ -349,7 +350,7 @@
   <div class="container" data-aos="zoom-in">
     <div class="text-center">
       <h3>Jaga baik-baik Barang Kesayangan Anda</h3>
-      <p> Kami merawatn dan menjag barang kesayangan Anda dengan penuh kehati-hatian. Jangan ragu untuk merawat barang kesayangan Anda pada kami</p>
+      <p> Kami merawat dan menjaga barang kesayangan Anda dengan penuh kehati-hatian. Jangan ragu untuk merawat barang kesayangan Anda pada kami</p>
       <a class="cta-btn" href="#"> <i class="fa fa-whatsapp"></i> Hubungi Kami</a>
     </div>
   </div>
@@ -670,8 +671,8 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>FAQ's</h2>
-      <p>Ini adalah forum tanya jawab tentang layanan kami</p>
+      <h2>Pertanyaan yang sering ditanyakan</h2>
+      <!-- <p>Ini adalah forum tanya jawab tentang layanan kami</p> -->
     </div>
 
     <div class="faq-list">
@@ -694,7 +695,7 @@
           <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Berapa harga cuci sepatu di Aneka Treatment?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
           <div id="faq-list-2" class="collapse" data-parent=".faq-list">
             <p>
-              Untuk harga dan biayanya. Anda bisa lihat disini <button class="btn btn-sm" style="color: #A52A2A;">Price List</button>
+              Untuk harga dan biayanya. Anda bisa lihat disini <a href="<?php echo base_url('price_list') ?>" class="d-inline btn btn-merah">Price List</a>
             </p>
           </div>
         </li>
